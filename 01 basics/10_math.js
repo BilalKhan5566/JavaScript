@@ -29,10 +29,19 @@ console.log((Math.random()*10) + 1); // a random value but greator then 1
 console.log(Math.floor(Math.random()*10) + 1); // a random value single value
 
 // // What if you want a value between 10 and 20?
-const min = 10
-const max = 20
-console.log(Math.floor(Math.random() * (max - min + 1) + min)); // (max - min + 1) + min its a formula to get a random value between range!
+const max = 100
+const min = 20
+console.log(Math.floor(Math.random() * (min - max + 1) + max));
 
+console.log("name")
+
+
+// console.log(Math.floor(Math.random()*(20-10+1)+10));
+
+
+
+
+// (max - min + 1) + min its a formula to get a random value between range!
 
 
 
